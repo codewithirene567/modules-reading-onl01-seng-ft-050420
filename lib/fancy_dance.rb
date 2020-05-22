@@ -1,5 +1,5 @@
 module FancyDance
-  module InstanceMethods #
+  module InstanceMethods #include keyword, we allow our classes to use all of the methods of the included module as instance methods. 
  
     def twirl
       "I'm twirling!"
