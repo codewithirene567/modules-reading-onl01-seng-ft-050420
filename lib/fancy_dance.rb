@@ -18,7 +18,7 @@ module FancyDance
     end
   end
  
-  module ClassMethods #
+  module ClassMethods # lend a module's methods to a class as class methods, we use the extend keyword.
  
     def metadata
       "This class produces objects that love to dance."
